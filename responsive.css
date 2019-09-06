@@ -1,0 +1,29 @@
+
+
+.col{
+    padding:5px; 
+}
+
+
+@media only screen and (max-width: 480px){
+    .sm-0{
+        background-color: grey;
+        width:25%
+    }
+}
+
+
+@media only screen and (min-width: 481px){
+    .med-2{
+        background-color: blue;
+        width:50%
+    }
+}
+
+
+@media only screen and (min-width: 1024px){
+    .lg-3{
+        background-color: red;
+        width:100%
+    }
+}
